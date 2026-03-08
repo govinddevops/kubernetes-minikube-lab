@@ -23,6 +23,7 @@ kubernetes-minikube-lab
 * Service exposure using NodePort (Port: 30007)
 * Configuration management using Kubernetes ConfigMap
 * Secure environment variables using Kubernetes Secrets
+* Application exposure using Kubernetes Ingress Controller
 
 ## Quick Commands
 **Start Minikube:**
