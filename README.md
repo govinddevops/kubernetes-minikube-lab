@@ -21,6 +21,8 @@ kubernetes-minikube-lab
 * Pod deployment using Kubernetes manifests
 * Application deployment using Kubernetes Deployment
 * Service exposure using NodePort (Port: 30007)
+* Configuration management using Kubernetes ConfigMap
+* Secure environment variables using Kubernetes Secrets
 
 ## Quick Commands
 **Start Minikube:**

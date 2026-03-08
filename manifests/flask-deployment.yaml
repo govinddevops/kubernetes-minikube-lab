@@ -17,4 +17,8 @@ spec:
         image: tiangolo/uwsgi-nginx-flask:python3.9
         ports:
         - containerPort: 80
-
+        envFrom:
+        - configMapRef:
+            name: flask-config
+        - secretRef:
+            name: flask-secret
